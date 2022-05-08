@@ -1,6 +1,6 @@
 # Azure Container Apps compared with AWS Elastic Container Service
 
-Recently Microsoft released their new serverless service for running containers on Azure platform - Azure Container Apps. It is still in public preview and not ready for production. Microsoft announced the **Public Preview** of the service in November 2021. This service closely resembles AWS's well matured container deployment service - Elatic Container Service aka ECS. 
+Recently Microsoft released their new serverless service for running containers on Azure platform - Azure Container Apps. It is still in public preview and not ready for production. Microsoft announced the **Public Preview** of the service in November 2021. This service closely resembles AWS's well matured container deployment service - Elastic Container Service aka ECS. 
 
 AWS announced the General Availability (GA) of the ECS services on April 2015. Initially it was started as a container deployment service backed by EC2 instances and was supporting only Linux containers. Later in December 2016 they added support for Windows Server 2016 containers (beta). In November 2017, Fargate launch type support was added to run containers on a serverless fashion. Fargate is a serverless, pay-as-you-go compute engine for deploying containers that currently supports Elastic Container Service (ECS) and Elastic Kubernetes Service (EKS). 
 
