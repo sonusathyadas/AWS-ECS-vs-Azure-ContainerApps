@@ -1,4 +1,11 @@
 # Azure Container Apps compared with AWS Elastic Container Service
+### Agenda
+* Overview to Azure Container Apps and AWS Elastic Container Services
+* High level view of AWS ECS components
+* High level view of Azure Container App components
+* Comparison of AWS ECS and Azure Container App components
+* Features of ECS and Container Apps
+
 
 Recently Microsoft released their new serverless service for running containers on Azure platform - Azure Container Apps. It is still in public preview and not ready for production. Microsoft announced the **Public Preview** of the service in November 2021. This service closely resembles AWS's well matured container deployment service - Elastic Container Service aka ECS. 
 
@@ -68,3 +75,8 @@ Application in Container Apps runs in **revisions**. A revision is an immutable 
 * ECS support Application Load Balancer, Network Load Balancer or Classic Load Balancer for applications that require Http inbound support. Azure Container App uses Http Ingress to support Http inbound traffic from outside the cluster.
 * ECS clusters runs inside the default VPC or a user defined VPC. Azure Container App can be deployed in a default VNET or a custom VNET defined by user.
 * An ECS service allows you to deploy containers either using rolling update strategy or BlueGreen deployment strategy. Multiple Revision mode and traffic splitting policy in Azure Container App allows you to enable A/B testing and BlueGreen deployment of applications.
+
+### Image courtesy: 
+* [Amazon Web Services documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html)
+* [Azure Container Apps documentation](https://docs.microsoft.com/en-us/azure/container-apps/revisions)
+* [AWS Compute Blog](https://aws.amazon.com/blogs/compute/amazon-ecs-task-placement/)
